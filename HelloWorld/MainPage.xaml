@@ -10,7 +10,7 @@
 
     <Grid Name="LayoutGrid">
         <Button  x:Name ="FirstButton" 
-                 Content="Click Me" 
+                 Content="Click Here" 
                  Margin="20,10,0,0" 
                  HorizontalAlignment="Left"
                  VerticalAlignment="Top" 
