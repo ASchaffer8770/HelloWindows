@@ -8,9 +8,24 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Button  x:Name ="FirstButton" Content="Click This" Margin="20,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.532,0.438" Width="107" FontSize="14" Click="FirstButton_Click"/>
-        <TextBlock x:Name="ResultTextBlock" HorizontalAlignment="Left" Margin="44,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="48"/>
+    <Grid Name="LayoutGrid">
+        <Button  x:Name ="FirstButton" 
+                 Content="Click Me" 
+                 Margin="20,10,0,0" 
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top" 
+                 RenderTransformOrigin="0.532,0.438" 
+                 Width="107" 
+                 FontSize="14" 
+                 Click="FirstButton_Click"/>
+        
+        <TextBlock x:Name="ResultTextBlock"
+                   HorizontalAlignment="Left" 
+                   Margin="44,133,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="" 
+                   VerticalAlignment="Top" 
+                   FontSize="48"/>
 
     </Grid>
 </Page>
