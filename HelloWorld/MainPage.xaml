@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button  x:Name ="FirstButton" Content="Click This" Margin="30,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.532,0.438" Width="107" FontSize="14" Click="FirstButton_Click"/>
+        <Button  x:Name ="FirstButton" Content="Click This" Margin="20,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.532,0.438" Width="107" FontSize="14" Click="FirstButton_Click"/>
         <TextBlock x:Name="ResultTextBlock" HorizontalAlignment="Left" Margin="44,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="48"/>
 
     </Grid>

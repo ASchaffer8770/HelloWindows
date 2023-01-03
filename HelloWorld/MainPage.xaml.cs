@@ -29,7 +29,7 @@ namespace HelloWorld
 
         private void FirstButton_Click(object sender, RoutedEventArgs e)
         {
-            ResultTextBlock.Text = "Hello World";
+            ResultTextBlock.Text = "What is XAML?";
         }
     }
 }
